@@ -1,0 +1,110 @@
+body {
+    background-image: linear-gradient(aliceblue, #add8e6);
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    width: 100%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+b {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.about {
+    background-color: hsla(120, 93%, 28%, 0.1);
+    padding: 5px 5px 5px 5px;
+    font-family: Verdana;
+    color: hsl(217, 100%, 20%);
+   
+}
+
+.intro {
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Optima;
+    color: hsl(217, 100%, 20%);
+}
+
+hr {
+    padding: 0px 0px 10px 0px;
+    height: 2px;
+    background-color:cadetblue;
+    border-color: cadetblue;
+    
+}
+.ov {
+    margin: auto;
+    max-width: 90%;
+    font-family: Optima;
+    font-size: large;
+    border-radius: 30px;
+    background-color: hsla(120, 93%, 28%, 0.1);
+    padding: 1px 10px 10px 20px;
+    color: hsl(217, 100%, 20%);
+}
+
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    padding: auto;
+    max-width: 90%;
+}
+
+.mytabs input[type="radio"] {
+    display: none;
+}
+
+.mytabs label {
+    text-align: center;
+    width: 50%;
+    padding: 15px 0px 15px 0px;
+    background-color: hsla(196, 76%, 46%, 0.3);
+    font-weight: bold;
+    font-family: Optima;
+    font-size: 30px;
+    border-radius: 50px 50px 0px 0px;
+    color: hsl(217, 100%, 20%);
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 90px;
+    background: white;
+    order: 1;
+    display: none;
+    border-radius: 0px 0px 50px 50px;
+    color: hsl(217, 100%, 20%);
+    
+}
+
+.mytabs .tab h2 {
+    text-decoration: overline underline;
+    color: hsl(163, 87%, 26%);
+}
+
+.mytabs .tab h3 {
+    text-decoration: underline;
+}
+
+.mytabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background-color: white;
+}
