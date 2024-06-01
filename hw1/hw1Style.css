@@ -86,6 +86,10 @@ body {
     font-family: Geneva;
 }
 
+.sections label:hover {
+    background-color: rgba(128, 128, 128, 0.488);
+}
+
 .sections input[type="radio"] {
     display: none;
 }
