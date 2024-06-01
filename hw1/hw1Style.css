@@ -77,6 +77,8 @@ body {
     display: flex;
     flex-wrap: wrap;
 
+    position: sticky;
+
     padding: 40px 15px 70px 15px;
 
     margin: auto auto;
