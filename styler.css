@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+}
+h1 {
+    padding-top: 30px;
+    color: rgb(158, 119, 176);
+    font-size: 50px;
+    font-weight: 100px;
+}
+.des {
+    margin: auto;
+    width: 1000px;
+
+}
+.bar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background-color: rgb(170, 140, 183);
+    background-blend-mode: darken;
+    color:white;
+    padding: auto;
+    max-width: 100%;
+    margin: auto;
+    width: 600px;
+    
+}
+
+.wpList {
+    display: flex;
+    list-style: none;
+    color:white;
+    align-self: center;
+    font-weight: 1000;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color:  hsl(163, 87%, 26%);
+}
+
+a:hover {
+    color: rgb(9, 55, 145);
+}
+
+a:active {
+    color:  hsl(163, 87%, 26%);
+}
+
+.wpList li {
+    margin: 20px 100px 20px 50px;
+
+}

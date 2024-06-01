@@ -1,0 +1,170 @@
+body {
+    background-image: linear-gradient(rgb(235, 245, 246), rgb(135, 199, 207));
+}
+
+.course {
+    background-color: powderblue;
+    margin: 0 auto;
+    width: 1500px;
+    max-width: 95%;
+    padding: 15px;
+    font-family: Geneva;
+
+
+}
+
+.about {
+    background-color: white;
+    margin: 0 auto;
+    width: 1500px;
+    max-width: 95%;
+    padding: 70px 15px 150px 15px;
+
+}
+
+.about img {
+    float: left;
+    padding: 0px 0px 0px 150px;
+
+
+
+
+}
+
+.about h1 {
+    text-align: right;
+    position:relative;
+    font-size: 60px;
+    padding: 50px 150px 0px 0px;
+    font-family: Geneva;
+}
+
+.about h2 {
+    text-align: right;
+    position:relative;
+    font-family: Geneva;
+    font-size: 30px;
+    padding: 0px 150px 0px 0px;
+}
+
+.overview {
+    margin: 0 auto;
+    width: 1500px;
+    max-width: 95%;
+    padding: 40px 15px 70px 15px;
+    text-align: center;
+    background-color: rgb(200, 122, 70);
+    border-radius: 20px;
+}
+
+.overview h2 {
+    font-family: Geneva;
+    font-size: 40px;
+    color: white;
+
+}
+
+.overview p {
+    font-family: Geneva;
+    font-size: 20px;
+    color: white;
+    padding: 0px 50px 0px 50px;
+
+
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 40px 15px 70px 15px;
+
+    margin: auto auto;
+    width: 1500px;
+    max-width: 95%;
+    
+    font-family: Geneva;
+}
+
+.sections input[type="radio"] {
+    display: none;
+}
+
+.sections label {
+    text-align: center;
+    width: 50%;
+    padding: 15px 0px 15px 0px;
+    background-color: powderblue;
+    font-weight: bold;
+    font-family: Optima;
+    font-size: 30px;
+    border-radius: 50px 50px 0px 0px;
+    color: hsl(217, 100%, 20%);
+}
+
+.sections .tab {
+    width: 100%;
+    padding: 90px;
+    background: white;
+    order: 1;
+    display: none;
+    border-radius: 0px 0px 50px 50px;
+    color: hsl(217, 100%, 20%);
+    
+}
+
+.sections .tab h2 {
+    text-decoration: overline underline;
+    font-weight: bold; 
+    color: hsl(163, 87%, 26%);
+}
+
+.sections .tab h3 {
+    text-decoration: underline;
+}
+
+.sections input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
+.sections input[type="radio"]:checked + label {
+    background-color: white;
+}
+
+.credits {
+    margin: 0 auto;
+    width: 1500px;
+    max-width: 95%;
+    padding: 20px 15px 20px 15px;
+    text-align: center;
+    background-color: rgb(200, 122, 70);
+    border-radius: 20px;
+    font-family: Geneva;
+    font-size: 15px;
+    color: white;
+
+}
+
+.credits h3 {
+    font-size: 25px;
+    text-decoration: underline overline;
+    
+    font-weight: 1000;
+}
+
+a {
+    color: rgb(211, 235, 255);
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(64, 223, 255);
+}
+
+a:active {
+    color: white;
+}
+
